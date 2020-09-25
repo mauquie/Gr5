@@ -1,0 +1,8 @@
+Emie  : Joueur
+        Carte
+
+Allan : Croupier
+        Partie
+
+Morgan: Coup
+        PokerController
