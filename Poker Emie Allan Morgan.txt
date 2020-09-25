@@ -1,8 +1,8 @@
 Emie  : Joueur
         Carte
 
-Allan : PokerController
+Allan : Croupier
         Partie
 
 Morgan: Coup
-        Croupier
+        PokerController
