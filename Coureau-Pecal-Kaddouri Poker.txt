@@ -1,9 +1,17 @@
-self.couleur=['P', 'C', 'K', 'T']
-self.rang=['2', '3', '4', '5', '6', '7', '8', '9', 'X', 'V', 'D', 'R', 'A']
+couleur=["Careau", "Coeur", "Trèfle", "Pique"]
+rang=["2", "3", "4", "5", "6", "7", "8", "9", "10", "Valet", "Dame", "Roi", "As"]
+
+C=[]
+t=1
+for i in range(couleur):
+  for j in range(rang):
+    C[t].append(Carte(couleur[i],rang[j]))
+    t=t+1
 
 
 
-class Carte:
+
+class Carte():
   """Représente une carte à jouer standard."""
 
   def __init__(self,couleur,rang):
@@ -26,15 +34,14 @@ class Joueur(Croupier):
     self.tapis=1000
 
   def recevoir_carte(self):
-
+    pass
 
 
   def nouvelle_donne(self):
+    pass
 
 
   def evaluer(self):
-
+    pass
     
 
-
-liste_carte=['Pique.As', 'Pique.2', ]
