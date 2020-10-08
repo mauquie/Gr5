@@ -42,7 +42,7 @@ class Croupier():
     
 from math import *
 
-0.1222222222couleur=["Careau", "Coeur", "Trèfle", "Pique"]
+couleur=["Careau", "Coeur", "Trèfle", "Pique"]
 rang=["2","3","4","5","6","7","8","9","10","V","D","R","A"]
 
 C=[]
