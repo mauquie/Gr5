@@ -1,4 +1,4 @@
-couleur=["Careau", "Coeur", "Trèfle", "Pique"]
+couleur=["K", "C", "T", "P"]
 rang=["2","3","4","5","6","7","8","9","10","V","D","R","A"]
 
 
